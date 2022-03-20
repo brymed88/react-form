@@ -34,9 +34,10 @@ Accepts one props (value) that will change the text within the button.
 `
 
 ## All together
+
 `
 <FormComponent onSubmit={formSubmit}>
-
+```
         <InputComponent
           type="email"
           label="Email"
@@ -57,5 +58,4 @@ Accepts one props (value) that will change the text within the button.
 
         <ButtonComponent value="Submit"/>
       </FormComponent>
-
-`
+```
