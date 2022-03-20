@@ -89,7 +89,11 @@ function App() {
   }
 
   const formSubmit = (e) => {
+
+    // Prevent default behavior of form  
     e.preventDefault();
+
+    // Do something when form is submitted... likely there will be a fetch or axios call here
     console.log(form);
   }
 
@@ -124,4 +128,10 @@ function App() {
 }
 
 export default App;
+```
+
+State variable form shown above returns a JSON object
+
+```
+Object { email: "test@gmail.com", password: "helloworld" }
 ```
