@@ -1,11 +1,11 @@
 import "./FormComponent.min.css";
 
 const FormComponent = (props) => {
-    const { children} = props;
+    const { children, onSubmit} = props;
 
     return (
         <div className="form_container">
-            <form>
+            <form onSubmit={onSubmit}>
                 {children}
             </form>
         </div>
