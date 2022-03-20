@@ -1,10 +1,10 @@
 
 import "./ButtonComponent.min.css";
-const ButtonComponent = () => {
-
+const ButtonComponent = (props) => {
+    const { value } = props;
     return (
-        <div className="input_container">
-
+        <div className="button_container">
+            <button>{value}</button>
         </div>
     )
 }

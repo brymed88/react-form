@@ -1,0 +1,12 @@
+.button_container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px 0;
+}
+
+.button_container button {
+  width: 200px;
+  align-self: flex-end;
+  padding: 8px;
+}

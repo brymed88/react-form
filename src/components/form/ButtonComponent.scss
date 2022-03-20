@@ -1,8 +1,15 @@
+@mixin fx-col-wp {
+    display: flex;
+    flex-direction: column;
+}
 
-.button_container{
-
-    button{
+.button_container {
+    @include fx-col-wp;
+    width: 80%;
+    margin: 20px 0;
+    button {
         width: 200px;
-        padding:8px;
+        align-self: flex-end;
+        padding: 8px;
     }
 }
