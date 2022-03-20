@@ -9,3 +9,24 @@ Accepts two props (children, onSubmit) and is initiated like such..
 //children will go here
 </FormComponent>
 `
+
+## InputComponent
+Accepts seven props (type,label,value,name,id,required,onChange) and is initiated like such..
+
+`
+<InputComponent
+          type="email"
+          label="Email"
+          name="email"
+          id="email"
+          required={true}
+          value={form.email}
+          onChange={handleFormChange} />
+`
+
+## ButtonComponent
+Accepts one props (value) that will change the text within the button.
+
+`
+<ButtonComponent value="Submit"/>
+`
