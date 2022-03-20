@@ -1,1 +1,1 @@
-.input_container label{width:100%}.input_container input{width:100%}
+.input_container{display:flex;flex-direction:column;width:80%}.input_container label{width:100%;padding:4px 0}.input_container input{width:100%;padding:8px 0;margin:4px 0;box-sizing:border-box}

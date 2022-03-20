@@ -8,6 +8,7 @@ const InputComponent = (props) => {
         value,
         name,
         id,
+        required,
         onChange
     } = props;
 
@@ -21,7 +22,9 @@ const InputComponent = (props) => {
             <input
                 type={type}
                 name={name}
+                id={id}
                 value={value}
+                required={required}
                 onChange={onChange}
             />
         </div>

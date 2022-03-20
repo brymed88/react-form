@@ -1,10 +1,20 @@
+@mixin fx-col-wp {
+    display: flex;
+    flex-direction: column;
+}
 
-.input_container{
+.input_container {
+    @include fx-col-wp;
+    width: 80%;
 
-    label{
+    label {
         width: 100%;
+        padding: 4px 0;
     }
-    input{
+    input {
         width: 100%;
+        padding: 8px 0;
+        margin: 4px 0;
+        box-sizing: border-box;
     }
 }
