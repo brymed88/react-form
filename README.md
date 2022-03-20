@@ -36,6 +36,7 @@ Accepts one props (value) that will change the text within the button.
 ## All together
 
 <pre>
+<code>
     <FormComponent onSubmit={formSubmit}>
     <InputComponent
           type="email"
@@ -57,4 +58,5 @@ Accepts one props (value) that will change the text within the button.
 
     <ButtonComponent value="Submit"/>
     </FormComponent>
+</code>
 </pre>
