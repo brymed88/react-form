@@ -78,7 +78,7 @@ function App() {
     // Get the name of the field that caused event and the new value of this field
     const { name, value } = e.target;
 
-    // Assign new value to the form state
+    // Assign new value to a variable
     const updatedForm = {
       ...form,
       [name]: value
@@ -121,6 +121,7 @@ function App() {
           onChange={handleInputChange} />
 
         <ButtonComponent value="Submit"/>
+
       </FormComponent>
 
     </div>
@@ -130,7 +131,7 @@ function App() {
 export default App;
 ```
 
-State variable form shown above returns a JSON object
+Returns a JSON object when form is filled out and submitted
 
 ```
 Object { email: "test@gmail.com", password: "helloworld" }
