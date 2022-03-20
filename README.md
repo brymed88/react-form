@@ -37,8 +37,7 @@ Accepts one props (value) that will change the text within the button.
 
 <code>
 <FormComponent onSubmit={formSubmit}>
-
-        <InputComponent
+<InputComponent
           type="email"
           label="Email"
           name="email"
@@ -47,7 +46,7 @@ Accepts one props (value) that will change the text within the button.
           value={form.email}
           onChange={handleFormChange} />
 
-        <InputComponent
+<InputComponent
           type="password"
           label="Password"
           name="password"
@@ -56,6 +55,6 @@ Accepts one props (value) that will change the text within the button.
           value={form.password}
           onChange={handleFormChange} />
 
-        <ButtonComponent value="Submit"/>
-      </FormComponent>
+<ButtonComponent value="Submit"/>
+</FormComponent>
 </code>
